@@ -4,7 +4,7 @@ import { ActivityIndicator, View } from 'react-native';
 export default AuthLoading = (props) => {
 
     useEffect(() => {
-        props.navigation.navigate('Mecanic')
+        props.navigation.navigate('Login')
     }, []);
 
     return (
